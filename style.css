@@ -1,0 +1,248 @@
+.container1 {
+    width: 5px;
+    height: 350px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.small-box {
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+
+
+}
+
+.small-box2 {
+    width: 120px;
+    height: 150px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.outer-continer2 {
+    width: 1200px;
+    height: 180px;
+    border: 5px solid black;
+    padding: 10px;
+    background: 50 color white;
+    margin-left: 240px;
+}
+
+.inner-container2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-box-inner2 {
+    width: 120px;
+    height: 150px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 200px;
+}
+
+.container3 {
+    width: 660px;
+    height: 660px;
+    border: 5px solid black;
+    /* Línea exterior */
+    padding: 10px;
+    background-color: white;
+    /* Fondo blanco */
+    display: flex;
+    flex-wrap: wrap;
+    /* Envolver las cajas a la siguiente línea cuando no haya suficiente espacio horizontal */
+    margin-top: -450px;
+    margin-left: 240px;
+    /* Espacio a la izquierda */
+}
+
+.inner-container3 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Incluye el relleno y el borde en el ancho total */
+    border: 2px solid black;
+    /* Línea interior */
+    text-align: center;
+    line-height: 160px;
+    /* Ajustar la altura del cuadro para centrar el texto */
+    margin: 10px;
+    /* Margen entre las cajas internas */
+}
+
+.container4 {
+
+    width: 788px;
+    height: 660px;
+    border: 5px solid black;
+    /* Línea exterior */
+    padding: 10px;
+    background-color: white;
+    /* Fondo blanco */
+    display: flex;
+    flex-wrap: wrap;
+    /* Envolver las cajas a la siguiente línea cuando no haya suficiente espacio horizontal */
+    margin-top: -690px;
+    margin-left: 950px;
+    /* Espacio a la izquierda */
+}
+
+
+/* Estilos para las cajas */
+
+.caja {
+
+    width: 500px;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 500px;
+    /* Espacio entre las cajas */
+    box-sizing: border-box;
+}
+
+
+/* Estilos para el formulario */
+
+
+.caja form label[type="text"] {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 200px;
+}
+
+.caja form input[type="submit"] {
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container5 {
+    width: 500px;
+    height: 200px;
+    margin-top: -500px; /* Ajusté el valor para mejorar la visualización */
+    margin-left: 980px; /* Ajusté el valor para mejorar la visualización */
+}
+
+.caja {
+    width: 100%; /* Cambié el ancho para que se adapte al 100% del contenedor padre */
+    padding: 3px;
+    border: 3px solid black;
+    margin-bottom: 20px; /* Ajusté el valor para mejorar la visualización */
+    box-sizing: border-box;
+}
+
+.caja input[type="submit"] {
+    padding: 10px; /* Ajusté el valor para mejorar la visualización */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Corregí el selector, asumiendo que el formulario está dentro de la etiqueta con clase "caja" */
+.caja form label {
+    padding: 10px; /* Ajusté el valor para mejorar la visualización */
+    background-color: #3709ec;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    
+    height: 170px;
+    background-color: rgb(173, 169, 169);
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
+
+/* Estilos para el enlace dentro del encabezado */
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-header {
+
+    width: 30px; 
+    height: 0px;
+    padding: 5px;
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+    border: 2px solid black; /* Línea interior */
+    text-align: center;
+    line-height: 160px; /* Ajustar la altura del cuadro para centrar el texto */
+    margin: 10px; /* Margen entre las cajas internas */
+
+}
+
+
+.small-box-header {
+    width: 1300px;
+    height: 40px;
+    background-color: #fff;
+    border: 3px solid #000; /* Línea interior */
+    line-height: 50px; /* Ajustar la altura del cuadro para centrar el texto */
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 310px; /* Espacio a la izquierda */
+}
+
+.search-icon {
+
+    font-size: 3em;
+    margin-top: -55px;
+    margin-left: 1600px; /* Espacio a la izquierda */
+}
+
+.flechas1 {
+
+    font-size: 3em;
+    margin-top: -55px;
+    margin-left: -1450px; /* Espacio a la izquierda */
+    justify-content: space-between;
+}
+
+.container6 {
+    width: 120px; /* Ajusté el ancho */
+    height: auto; /* Ajusté la altura para que se adapte al contenido */
+    display: flex;
+    flex-direction: column; /* Cambié la dirección del flex a columna */
+    margin-top: -50px; /* Ajusté el valor para mejorar la visualización */
+    margin-left: 1000px; /* Ajusté el valor para mejorar la visualización */
+}
+
+.caja input[type="submit"] {
+    padding: 10px; /* Ajusté el valor para mejorar la visualización */
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #3709ec; /* Añadí un color de fondo */
+}
+
+.caja form label {
+    padding: 10px; /* Ajusté el valor para mejorar la visualización */
+    background-color: #3709ec;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
